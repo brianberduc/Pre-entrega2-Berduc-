@@ -118,6 +118,10 @@
         display: none;
     }
 }
+/*Tienda*/
+    .productos {
+        grid-template-columns: 1fr; /* Los productos se organizan en una sola columna */
+    }
 @media screen and (min-width: 481px) and (max-width: 1023px) {
 /*General*/
     /*Header*/
